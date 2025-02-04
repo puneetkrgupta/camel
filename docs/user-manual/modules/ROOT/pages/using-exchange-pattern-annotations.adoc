@@ -1,6 +1,6 @@
 = Using Exchange Pattern Annotations
 
-Invoking InOut methods for ref:components:eips:requestReply-eip.adoc[request/reply] when working with xref:pojo-producing.adoc[POJO Producing] is typically synchronous. As such, the caller will block until the server returns a result.
+Invoking InOut methods for xref:components:eips:requestReply-eip.adoc[Request Reply] when working with xref:pojo-producing.adoc[POJO Producing] is typically synchronous. As such, the caller will block until the server returns a result.
 
 [NOTE]
 ====
