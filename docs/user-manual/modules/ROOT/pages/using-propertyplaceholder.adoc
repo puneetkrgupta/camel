@@ -246,7 +246,7 @@ from("{{cool.start}}")
 
 === Using property placeholders with producer template
 
-You can also your property placeholders when using
+You can also use property placeholders when using
 xref:producertemplate.adoc[ProducerTemplate] for example:
 
 [source,java]
@@ -281,7 +281,7 @@ You can mount it in your Pod container, for instance, under `/etc/camel/conf.d/_
 
 At runtime, you will be able to read the configuration transparently as ```{{ my-property }}``` as you're doing with the rest of properties.
 
-NOTE: the same configuration works with Configmap.
+NOTE: The same configuration works with Configmap.
 
 == Resolving property placeholders from Java code
 
